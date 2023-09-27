@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5">
+    <title>Members</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+
+    }
+   body{
+    margin: 0;
+    padding: 0;
+    background-color: #173459;
+    color: whitesmoke;
+    display: flex;
+    height: 220vh;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Verdana';   
+
+   }
+   img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 5px solid #0076ff;
+    
+   }
+   input:checked.content{
+    height: 300px;
+    opacity: 1;
+   }
+   .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: relative;
+    box-shadow: 2px 3px 9px black;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+   }
+   
+   p{
+    text-align: center;
+    line-height: 25px;
+   }
+   label{
+    display: block;
+    max-width: 100%;
+    width: 400px;
+    border: 2px solid #903c59;
+    box-shadow: 2px 3px 6px black;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 2220px;
+    font-weight: 300px;
+    cursor: pointer;
+    transition: all 0.24s ease-in-out;
+   }
+   [type="radio"]{
+    appearance: none;
+   }
+   label:hover{
+    background-color: #903c59;
+    color: whitesmoke;
+    outline: none;
+   }
+ button{
+    position: absolute;
+    top:40px;
+    left: 10px;
+ }
+ 
+
+</style>
+<body>
+    <div class="container">
+       <button id="back"><a href="homepage.html">Back</a></button>
+    <div class="accordion">
+        <label for="pers1">Sarafina</label>
+        <input type="radio" name="grp">
+        <div class="content">
+            <img src="css/Images/sarafina.jpg" alt="">
+            <p>RegNo: IN13/00050/21<br>
+               Name: Sarafina Andeya<br>
+               Course: Computer science<br>
+               She is a full stack developer 
+            
+            </p>
+        </div>
+    </div>
+
+    <div class="accordion">
+        <label for="pers2">Boniface</label>
+        <input type="radio" name="grp">
+        <div class="content">
+            <img src="css/Images/boni.jpg" alt="">
+            <p>RegNo: IN13/00020/21<br>
+               Name: Ngui Boniface<br>
+               Course: Computer science<br>
+               He is a Cyber Security Specialist  and aiming to gain expertise in data and Network Security.
+            </p>
+        </div>
+    </div>
+
+    
+    <div class="accordion">
+        <label for="pers3">Benard</label>
+        <input type="radio" name="grp">
+        <div class="content">
+            
+            <img src="css/Images/sami.jpg" alt="">
+            <p>RegNo: IN13/00077/21<br>
+               Name: Benard Mumo<br>
+               Course: Computer science<br>
+              He is a Pen Tester and an Object Oriented  System and Design Analyst Looking  foward to analysing and  Desgning more resilient systems.
+            </p>
+        </div>
+    </div>
+
+    <div class="accordion">
+        <label for="pers4">Terry</label>
+        <input type="radio" name="grp">
+        <div class="content">
+            <img src="css/Images/tery.jpg" alt="">
+            <p>RegNo: IN13/00040/21<br>
+               Name: Terry Nkatei<br>
+               Course: Computer science<br>
+               She is pro-eficient in Graphics and  Design
+            </p>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
